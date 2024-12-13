@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow:-2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:-2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    cursor:grab;
+}
+
+.news{
+    background-color: #021c2e;
+    color: rgb(255, 240, 240);
+}
+
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: rgb(246, 53, 53);
+    margin-left: -10px;
+    border: 2px solid rgb(246, 53, 53);
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid #f63535;
+    background: #021c2e;
+    color: aliceblue;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.news input::placeholder{
+    color: white;
+}
+
+/* .nav-link:hover{
+    color: aliceblue;
+} */
+
+/* .img-fluid img:hover{
+    width: 100px;
+} */
